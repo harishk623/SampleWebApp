@@ -9,7 +9,7 @@
     <target name="init">
         <mkdir dir="build/classes"/>
         <mkdir dir="dist"/>
-    </target>
+    </target>xxx
     <target name="compile" depends="init">
         <javac srcdir="src" debug="true" destdir="build/classes">
             <classpath refid="compile.classpath"/>
